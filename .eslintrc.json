@@ -29,6 +29,7 @@
     "strict": [2,"global"],
     "no-console": ["error", { "allow": ["warn", "error"] }],
     "import/no-dynamic-require": 0,
+    "react/jsx-filename-extension": [1, {"extensions": [".js"]}],
     "no-param-reassign": ["error", { "props": false }],
     "prettier/prettier": [
       "error",
