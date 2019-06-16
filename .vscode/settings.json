@@ -8,6 +8,7 @@
     /**/
     ".editorconfig": true,
     ".eslintrc": true,
+    ".eslintrc.json": true,
     ".eslintignore": true,
     ".gitignore": true,
     ".gitattributes": true,
