@@ -1,7 +1,9 @@
 {
   "name": "cra-testing",
   "version": "0.1.0",
+  "description": "Repository for React tests",
   "private": true,
+  "main": "./src/index.js",
   "scripts": {
     "precommit": "lint-staged",
     "build": "react-scripts build",
@@ -10,6 +12,35 @@
     "test": "react-scripts test",
     "quick:test": "cross-env NODE_ENV=test nodemon ./quick.test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamBeltran/cra-testing.git"
+  },
+  "keywords": [
+    "Javascript",
+    "React",
+    "Testing",
+    "Building",
+    "Develop"
+  ],
+  "author": "Victor Giovanni Beltrán Rodríguez <beltran-victor@outlook.com> (https://vgbr-dev.blogspot.com)",
+  "contributors": [
+    {
+      "name": "Victor Giovanni Beltrán Rodriguez",
+      "email": "beltran-victor@outlook.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Victor Giovanni Beltrán Rodriguez",
+      "email": "beltran-victor@outlook.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IamBeltran/cra-testing/issues"
+  },
+  "homepage": "https://github.com/IamBeltran/cra-testing#readme",
   "browserslist": {
     "production": [
       ">0.2%",
